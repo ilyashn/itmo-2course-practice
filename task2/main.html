@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <script language="JavaScript" src="script.js" type="text/javascript">
+    </script>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Simple Form</title>
+</head>
+<body>
+    <form name="form1">
+        <input id="login" type="text" name="login" required placeholder="Логин"><br>
+        <input type="password" name="password" required placeholder="Пароль"><br>
+        <hr>
+        <p class="head"><b>Продолжите название песни: "Все идёт..."</b><br></p>
+            <p class="add">
+                <input type="radio" name="radio-input" value="radio-input1">...как всегда</input><br>
+                <input type="radio" name="radio-input" value="radio-input2">...по плану</input><br>
+                <input type="radio" name="radio-input" value="radio-input3">...все меняется</input><br>
+            </p>
+        <hr>
+        <p class="head"><b>Выберите верный порядок слов в песне группы Сплин: </b></p>
+        <p align="center">
+            <select name="s1">
+                <option value="o1" id="o1">рассвет</option>
+                <option value="o2" id="o2">нет</option>
+                <option value="o3" id="o3">выхода</option>
+                <option value="o4" id="o4">скоро</option>
+            </select>
+            <select name="s2">
+                <option value="o1">рассвет</option>
+                <option value="o2">нет</option>
+                <option value="o3">выхода</option>
+                <option value="o4">скоро</option>
+            </select>
+            <select name="s3">
+                <option value="o1">рассвет</option>
+                <option value="o2">нет</option>
+                <option value="o3">выхода</option>
+                <option value="o4">скоро</option>
+            </select>
+            <select name="s4">
+                <option value="o1">рассвет</option>
+                <option value="o2">нет</option>
+                <option value="o3">выхода</option>
+                <option value="o4">скоро</option>
+            </select>
+        </p>
+        <hr>
+
+        <p class="head">
+            <b>Кто исполнитель песни "Кукушка"?</b>
+        </p>
+        <p class="add">
+            <input type="checkbox" name="cb" value="cb1">Гуф</input><br>
+            <input type="checkbox" name="cb" value="cb2">Полина Гагарина</input><br>
+            <input type="checkbox" name="cb" value="cb2">Кино</input><br>
+        </p>
+        <hr>
+        <textarea id="ta" readonly></textarea>
+        <br>
+        <input type="button" onclick="foo()"  value="Показать результат"><br>
+    </form>
+</body>
+</html>

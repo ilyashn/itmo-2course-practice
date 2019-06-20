@@ -1,0 +1,121 @@
+body {
+    background-color: #F5F5F5;
+}
+
+input[type="text"] {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom-color: #0076d5;
+    border-bottom-style: solid;
+    padding-left: 15px;
+    color: black;
+    background-color: #F5F5F5;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 40px;
+    font-family: "Courier New";
+    font-size: 20px;
+
+}
+
+input[type="password"] {
+    border-right: 0;
+    border-left: 0;
+    border-top: 0;
+    border-bottom-color: #0076d5;
+    border-bottom-style: solid;
+    padding-left: 15px;
+    color: black;
+    background-color: #F5F5F5;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 40px;
+    font-family: "Courier New";
+    font-size: 20px;
+}
+
+
+textarea {
+    padding-left: 15px;
+    color: black;
+    outline: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    height: 60px;
+    font-family: "Courier New";
+    font-size: 20px;
+    background-color: #F5F5F5;
+    border-color: #0076d5;
+    border-style: solid;
+}
+
+select {
+    border-color: #0076d5;
+    outline: none;
+    border-style: solid;
+    background-color: #F5F5F5;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: compact;
+    width: 10%;
+    height: 20px;
+    font-family: "Courier New";
+    font-size: 15px;
+}
+hr {
+    border-color: #0076d5;
+    background-color: #0076d5;
+}
+
+p.head {
+    width: 40%;
+    font-family: "Courier New";
+    font-size: 20px;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+p.add {
+    width: 40%;
+    font-family: "Courier New";
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-family: "Courier New";
+    font-size: 15px;
+}
+
+input[type="button"] {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 20%;
+    height: 20px;
+    font-family: "Courier New";
+    color: black;
+    border: 0;
+    border-radius: 7px;
+    color: black;
+    background-color: #0076d5;
+    outline: none;
+    height: 30px;
+}
+
+input[type="button"]:hover {
+    background: #B0C4DE;
+}
