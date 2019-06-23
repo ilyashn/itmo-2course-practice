@@ -1,0 +1,404 @@
+body {
+    margin: 0;
+    font-family: "Arial";
+    height: 100%;
+    min-height: 100%;
+}
+
+.head {
+    background-color: #2a4faa;
+    margin: 0;
+    height: 75px;
+}
+
+.h-content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.h-link a{
+    margin-left: 20px;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.h-link {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 26px;
+    float: left;
+}
+
+.h-image {
+    outline: none;
+    float: left;
+    width: 300px;
+    height: 35px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.h-search input[type="text"]{
+    border-radius: 20px;
+    width: 250px;
+    height: 35px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 15px;
+    border: 0;
+    background-color: #2e58be;
+    color: #FFFFFF;
+}
+
+::placeholder {
+    color: aliceblue;
+}
+
+.h-search {
+    padding-top: 20px;
+    float: right;
+    display: block;
+}
+
+.h-search input[type="submit"]:hover {
+    border-color: aliceblue;
+    color: #FFFFFF;
+}
+
+.h-search input[type="submit"] {
+    margin-left: -30px;
+    height: 35px;
+    width: 35px;
+    border-radius: 20px;
+    background-color: #2e58be;
+    color: aliceblue;
+}
+
+.h-image img {
+    outline: none;
+    width: 300px;
+    height: 35px;
+}
+
+
+.main-panel {
+    margin: 0;
+    height: 55px;
+    background-color: #2e58be;
+}
+.main-panel-content {
+    width: 1050px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-part {
+    display: block;
+    float: left;
+}
+.b1 {
+    border-color: cornflowerblue;
+    border-top: 0;
+    border-left: 0;
+    border-bottom: 0;
+    outline: none;
+    background-color: #2e58be;
+    height: 55px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.b1:hover {
+    border-right: solid;
+    border-right-color: gray;
+    background-color: #2a4faa;
+}
+
+.b2 {
+    color: #FFFFFF;
+    border: 0;
+    outline: none;
+    background-color: #2e58be;
+    height: 55px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.b2:hover {
+    background-color: #2a4faa;
+}
+
+.right-part {
+    display: block;
+    float: right;
+}
+.intro {
+    min-width: 1510px;
+    height: 550px;
+    background: black url("img/back (3).jpg") center;
+    background-size: cover;
+    display: block;
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    padding: 40px;
+    color: #FFFFFF;
+}
+
+.txt {
+    text-align: center;
+    font-size: 22px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 130px;
+    color: #FFFFFF;
+    width: 1200px;
+}
+
+.i-links {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 200px;
+    width: 1200px;
+}
+
+.i-links a {
+    text-align: center;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 100px;
+}
+
+.i-links a:hover {
+    color: gray;
+}
+
+.contacts {
+    background-color: #333333;
+    margin: 0;
+    height: 250px;
+    bottom: 0;
+    width: 100%;
+}
+
+.content {
+    height: 1200px;
+}
+
+.c-content {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.c-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.c-left {
+    color: #6f6f69;
+    display: block;
+    float: left;
+    width: 400px;
+}
+
+.td {
+    color: #FFFFFF;
+    padding-top: 15px;
+    vertical-align: bottom;
+}
+
+.th {
+    padding-top: 15px;
+}
+
+table {
+    width: inherit;
+    text-align: left;
+}
+
+.c-right {
+    color: #6f6f69;
+    display: block;
+    float: left;
+    width: 800px;
+}
+
+.link-block a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin-right: 15px;
+}
+
+.link-block a:hover {
+    color: gray;
+}
+
+.link-block {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.extra-links {
+    padding-top: 10px;
+}
+
+.extra-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+
+.extra-links a:hover {
+    color: gray;
+}
+
+.content-block {
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.c-b-title {
+    float: left;
+    font-size: 20px;
+    padding-bottom: 15px;
+    display: block;
+    width: inherit;
+
+}
+
+.c-b-info {
+    text-align: left;
+    padding-top: 15px;
+    display: block;
+    width: inherit;
+}
+
+.c-b-info a {
+    text-decoration: none;
+    color: #7aabcc;
+}
+
+.c-b-info a:hover {
+    color: #769499;
+}
+
+.poster {
+    float: left;
+    width: 500px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 100px;
+}
+
+.extra-systems {
+    padding-left: 50px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.extra-systems a {
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #7aabcc;
+    display: block;
+    border: 10px black;
+    padding-bottom: 50px;
+}
+
+.extra-systems a:hover {
+    color: #769499;
+}
+
+.posters {
+    display: block;
+    padding-bottom: 100px;
+    height: 100px;
+}
+
+.partners {
+    padding-left: 50px;
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: contour;
+    padding-bottom: 100px;
+}
+
+.p-title {
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.partners a{
+    float: left;
+    margin-left: 30px;
+    text-decoration: none;
+    color: #7aabcc;
+    display: block;
+    border: 10px black;
+    padding-bottom: 50px;
+}
+
+.partners a:hover {
+    color: #769499;
+}
+
+.main-person {
+
+}
+
+.main-person-content {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+.statement {
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    padding-top: 50px;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.author {
+    text-align: right;
+}
+
+.quotes {
+    color: red;
+    font-size: 18px;
+}
