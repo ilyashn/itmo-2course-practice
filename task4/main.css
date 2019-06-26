@@ -51,7 +51,6 @@ body {
     width: 250px;
     height: 35px;
     outline: none;
-    padding-left: 15px;
     font-size: 15px;
     border: 0;
     background-color: #2e58be;
@@ -160,8 +159,7 @@ body {
     font-size: 22px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 80px;
-    padding-left: 80px;
+
     color: #FFFFFF;
     width: 1200px;
 }
@@ -281,6 +279,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     padding-top: 50px;
+    height: 1200px;
 }
 
 .c-b-title {
@@ -314,15 +313,15 @@ table {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 100px;
+    padding-left: 50px;
 }
 
 .extra-systems {
-    padding-left: 50px;
     width: 1200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
 }
 
 .extra-systems a {
@@ -345,13 +344,10 @@ table {
 }
 
 .partners {
-    padding-left: 50px;
     width: 1200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    float: contour;
-    padding-bottom: 100px;
 }
 
 .p-title {
@@ -362,6 +358,7 @@ table {
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 20px;
+    width: 50%;
 }
 
 .partners a{
@@ -370,7 +367,6 @@ table {
     text-decoration: none;
     color: #7aabcc;
     display: block;
-    border: 10px black;
     padding-bottom: 50px;
 }
 
@@ -429,6 +425,141 @@ table {
     padding-left: 60px;
     float: left;
     padding-right: 40px
+}
+
+
+@media screen and (max-device-width: 1200px) {
+    .h-content {
+        width: 100%;
+    }
+
+    .head {
+        width: 100%;
+    }
+
+    .h-search {
+        width: 25%;
+    }
+
+    .h-image {
+        width: 25%;
+    }
+
+    .h-image img {
+        width: 100%;
+    }
+
+    .h-link {
+        width: 35%;
+    }
+
+    .h-link a {
+        width: 100%;
+        font-size: 80%;
+    }
+
+    .h-search input[type="text"] {
+        width: 80%;
+    }
+
+    .main-panel {
+        width: 100%;
+    }
+    .main-panel-content {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .txt {
+        width: 100%;
+    }
+
+    .i-links {
+        padding-top: 100px;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: block;
+    }
+
+    .i-links a {
+        margin-left: 7%;
+        font-size: 150%;
+    }
+
+    .c-left {
+        width: 30%;
+    }
+
+    .c-right {
+        width: 60%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .content-block {
+        width: 100%;
+    }
+
+    .posters {
+        width: 100%;
+    }
+
+    .poster {
+        width: 45%;
+    }
+
+    .c-b-title {
+        width: 100%;
+    }
+
+    .c-b-info {
+        margin: 0;
+        width: 100%;
+    }
+
+    .extra-systems {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .extra-systems a{
+        width: 30%;
+    }
+
+    .s1 {
+        width: 100%;
+        height: 200px;
+    }
+
+    .t1 {
+        width: 100%;
+    }
+
+    .partners {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .partners a {
+        width: 30%;
+    }
+
+    .p-title {
+        width: 100%;
+    }
+
+    .main-person-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
 }
 
 @media screen and (max-device-width: 1024px) {
@@ -560,6 +691,7 @@ table {
         width: 100%;
         padding-top: 30px;
         margin-left: auto;
+        margin-right: auto;
         float: right;
     }
 
