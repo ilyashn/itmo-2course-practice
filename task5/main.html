@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Simple Bootstrap page</title>
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark justify-content-center" id="header">
+    <a class="navbar-brand ml-lg-4" href="#">
+        <img src="img/logo.png" width="250">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbars" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse navbars" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" style="text-align: center" href="#">Электронная информационно-образовательная среда<span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 justify-content-center">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="search-input">
+            <button class="btn btn-outline-success my-2 my-sm-0 rounded-circle" type="submit" id="circle-btn">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+    </div>
+</nav>
+
+<nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
+    <div class="collapse navbar-collapse navbars ml-lg-4">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Новости</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Аттестации</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Онлайн-курсы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Рейтинг студентов</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Авторам</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Документы</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Департамент</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Вход / Sign In</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="jumbotron banner">
+    <h1 class="text-white text-center">Образование, технологии, университет</h1>
+    <p class="text-center text-white">Добро пожаловать в информационную эру, где новые технологии меняют все, в том числе и сферу образования. Университет ИТМО уже давно работает с дистанционными технологиями обучения и приглашает своих студентов и преподавателей идти в ногу с быстро меняющимися тенденциями.</p>
+
+    <div class="row d-flex justify-content-lg-between justify-content-center my-4">
+        <div class="col-sm-6 col-lg-3 col-12 justify-content-center bg-transparent">
+                <a href="#" class="stretched-link text-left text-white my-2"><i class="fa fa-newspaper-o fa-md"> Новости</i></a>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12 justify-content-center bg-transparent">
+            <a href="#" class="stretched-link text-left text-white"><i class="fa fa-folder-o fa-md"> Аттестации</i></a>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12 justify-content-center bg-transparent">
+            <a href="#" class="stretched-link text-left text-white"><i class="fa fa-file fa-md"> Документы</i></a>
+        </div>
+        <div class="col-sm-6 col-lg-3 col-12 justify-content-center bg-transparent">
+            <a href="#" class="stretched-link text-left text-white"><i class="fa fa-lock fa-md"> Вход в AcademicNT</i></a>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-sm-12">
+            <h4>Уважаемые родители!</h4>
+            <p>В системе Вы можете оперативно получать отчеты об учебных достижениях своих родственников, обучающихся в нашем Университете. Для получения отчетов в текущем учебном году требуется заполнить заявку. Отчеты будут высылаться на Ваш адрес электронной почты. С вопросами и предложениями по работе сервиса обращайтесь по адресу <a href="#">de@mail.ifmo.ru.</a></p>
+        </div>
+        <div class="col-md-6 col-sm-12">
+            <h4>Уважаемые преподаватели!</h4>
+            <p>Для подключения в текущем учебном году электронных учебно-методических комплексов дисциплин просим обращаться к Петрик Александре Игоревне . (ауд. 455, тел. 232-59-14, e-mail: alexandra@cde.ifmo.ru).</p>
+        </div>
+    </div>
+</div>
+
+<footer class="footer-area footer--dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12">
+                <div class="footer-widget">
+                    <div class="widget-about">
+                        <h4 class="footer-widget-title">Контакты</h4>
+                        <ul class="contact-details">
+                            <li>Телефон:
+                                <a href="tel:(812) 232-5914">(812) 232-5914</a>
+                            </li>
+                            <li>
+                                Email:
+                                <a href="mailto:de@mail.ifmo.ru">de@mail.ifmo.ru</a>
+                            </li>
+                        </ul>
+                        <p>© Департамент открытого образования Университета ИТМО, 2003-2019 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-4">
+                <div class="footer-widget">
+                    <div class="footer-menu footer-menu--1">
+                        <h4 class="footer-widget-title">Навигация</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Новости</a>
+                            </li>
+                            <li>
+                                <a href="#">Аттестации</a>
+                            </li>
+                            <li>
+                                <a href="#">Онлайн-курсы</a>
+                            </li>
+                            <li>
+                                <a href="#">Рейтинг студентов</a>
+                            </li>
+                            <li>
+                                <a href="#">Авторам</a>
+                            </li>
+                            <li>
+                                <a href="#">Документы</a>
+                            </li>
+                            <li>
+                                <a href="#">Департамент</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-4">
+                <div class="footer-widget">
+                    <div class="footer-menu footer-menu--1">
+                        <h4 class="footer-widget-title">Дополнительно</h4>
+                        <ul>
+                            <li>
+                                <a href="#">Правила доступа и использования информации</a>
+                            </li>
+                            <li>
+                                <a href="#">Политика ИТМО в отношении персональных данных</a>
+                            </li>
+                            <li>
+                                <a href="#">isu.ifmo.ru</a>
+                            </li>
+                            <li>
+                                <a href="#">Ifmo.ru</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
